@@ -1,0 +1,5 @@
+:root{
+    font-size: 62.5%;
+    --defult-border: .1rem solid rgba(0, 0, 0, 0.15);
+    --defult-border-radius: 1.2rem;
+}

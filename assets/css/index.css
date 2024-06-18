@@ -1,0 +1,144 @@
+body {
+  height: calc(100vh - 8.5rem);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+}
+
+.content {
+  display: grid;
+  grid-template-areas:
+    ". . . . ."
+    ". hero . form ."
+    ". hero . form ."
+    ". . . . .";
+  gap: 8.5rem;
+}
+
+section {
+  grid-area: form;
+}
+aside {
+  grid-area: hero;
+}
+
+aside h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  line-height: 75px;
+}
+
+aside h1 span,
+section h2 span {
+  color: #ff5678;
+}
+
+section {
+  width: 60rem;
+  height: 52rem;
+  border: var(--defult-border);
+  padding: 4.4rem 5.7rem;
+  border-radius: var(--defult-border-radius);
+  position: relative;
+}
+
+section h2 {
+  max-width: 43rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+
+section .actions {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+section .actions a {
+  border-radius: var(--defult-border-radius);
+  text-decoration: none;
+  font-size: 2.2rem;
+  height: 5.5rem;
+  background-color: #35e6e9;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5.4rem;
+}
+
+section .actions a + a {
+  background-color: #ff5678;
+  margin-top: 4.8rem;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+    gap: 0 1.8rem;
+}
+
+
+section footer p {
+  margin-top: 8rem;
+  font-size: 1.6rem;
+}
+section footer a {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  display: block;
+  text-align: center;
+  color: #000;
+}
+
+section form {
+    margin-top: 1.6rem;
+}
+
+section form label {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+section form :is(input, select) {
+  width: 489px;
+  height: 5.5rem;
+
+  background: #fff;
+  border: var(--defult-border);
+  border-radius: var(--defult-border-radius);
+}
+
+section form select {
+  appearance: none;
+}
+
+section form .select-div::after {
+  top: 1.2rem;
+  right: 0;
+  content: '\f107';
+  font-family: 'Font Awesome Free 5';
+  font-weight: 600;
+  font-size: 2.2rem;
+  position: absolute;
+  z-index: 1;
+  color: #35e6e9;
+}
+
+section form .points {
+  position: relative;
+}
+
+section form input + button {
+    position: absolute;
+    right: -3.7rem;
+    top: calc(2.3rem + 2.5rem);
+    background-color: transparent;
+    color: #35e6e9;
+    border: none;
+    font-size: 2.4rem;
+    cursor:pointer
+}
