@@ -11,14 +11,14 @@ body {
     ". hero . form ."
     ". hero . form ."
     ". . . . .";
-  gap: 8.5rem;
+  gap: 4.5rem;
 }
 
-section {
-  grid-area: form;
-}
 aside {
   grid-area: hero;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 aside h1 {
@@ -33,6 +33,7 @@ section h2 span {
 }
 
 section {
+  grid-area: form;
   width: 60rem;
   height: 52rem;
   border: var(--defult-border);
@@ -114,18 +115,25 @@ section form :is(input, select) {
 
 section form select {
   appearance: none;
+  
+}
+
+section form .select-div{
+  position: relative;
 }
 
 section form .select-div::after {
-  top: 1.2rem;
-  right: 0;
-  content: '\f107';
-  font-family: 'Font Awesome Free 5';
-  font-weight: 600;
+  top: 1.8rem;
+  right: 1.8rem;
+  content: '\f104';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   font-size: 2.2rem;
   position: absolute;
   z-index: 1;
   color: #35e6e9;
+  transform: rotate(-90deg);
+  cursor: pointer;
 }
 
 section form .points {
