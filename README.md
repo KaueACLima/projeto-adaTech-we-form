@@ -1,9 +1,6 @@
 <h1 align="center">We Form</h1>
 
 <p align="center">
-Olá a todos, sejam bem vindos ao meu portfólio. <br/>
-
-<p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
@@ -15,7 +12,7 @@ Olá a todos, sejam bem vindos ao meu portfólio. <br/>
 
 <br>
 
-![projeto-portifolio](https://github.com/KaueACLima/projeto-portifolio/assets/56000639/78fdee65-96ae-4a95-9124-47830cd1c0ce)
+![fundo-we-form](https://github.com/KaueACLima/projeto-portifolio/assets/56000639/45f88d2b-0da8-45a1-8be1-382c3e68ba05)
 
 ## 🚀 Tecnologias
 
@@ -26,9 +23,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- [Acesse o projeto finalizado, online](https://kaueaclima.github.io/projeto-portifolio/)
+- [Acesse o projeto finalizado, online](https://github.com/KaueACLima/projeto-adaTech-we-form)
 
-- [Acesse o portifólio finalizado](https://kaueaclima.github.io/projeto-portifolio/)
+- [Acesse o portifólio finalizado](https://kaueaclima.github.io/projeto-adaTech-we-form/)
 
 ## :memo: Licença
 
