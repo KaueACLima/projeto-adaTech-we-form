@@ -14,11 +14,10 @@ body {
   gap: 4.5rem;
 }
 
-.content-entidades-cadastrada{
-  display: grid;
-  grid-template-areas:
-  ""
-  ;
+.content-entities-indexed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 aside {
@@ -80,12 +79,55 @@ section .actions a + a {
   margin-top: 4.8rem;
 }
 
-section header {
-    display: flex;
-    align-items: center;
-    gap: 0 1.8rem;
+.header-entities-indexed h1 {
+  text-align: center;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  font-weight: 500;
+  margin: 1.5rem 0;
 }
 
+.header-entities-indexed h1 span {
+  color: #ff5678;
+}
+
+section .entities {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+section .entities > div {
+  font-size: 2.2rem;
+  color: #35e6e9;
+  line-height: 3.3rem;
+  font-weight: 500;
+  border: 1px solid;
+  border-radius: 1.2rem;
+  padding: 0.5rem;
+}
+
+section .entities h4 {
+  font-size: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+section .entities a {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 3.6rem;
+  color: #ff5678;
+}
+
+section header {
+  display: flex;
+  align-items: center;
+  gap: 0 0.8rem;
+  font-size: 3.6rem;
+  margin-bottom: 1.5rem;
+}
 
 section footer p {
   margin-top: 8rem;
@@ -100,15 +142,15 @@ section footer a {
 }
 
 section form {
-    margin-top: 1.6rem;
+  margin-top: 1.6rem;
 }
 
 section form label {
-    font-size: 1.8rem;
-    font-weight: 500;
-    text-transform: lowercase;
-    margin-bottom: 1rem;
-    display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-bottom: 1rem;
+  display: block;
 }
 
 section form :is(input, select) {
@@ -122,17 +164,16 @@ section form :is(input, select) {
 
 section form select {
   appearance: none;
-  
 }
 
-section form .select-div{
+section form .select-div {
   position: relative;
 }
 
 section form .select-div::after {
   top: 1.8rem;
   right: 1.8rem;
-  content: '\f104';
+  content: "\f104";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2.2rem;
@@ -143,15 +184,15 @@ section form .select-div::after {
   cursor: pointer;
 }
 
-section form .novo-campo-div{
+section form .new-camp-register {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-section form .novo-campo-div p{
+section form .new-camp-register p {
   color: #ff5678;
 }
 
@@ -160,12 +201,12 @@ section form .points {
 }
 
 section form input + button {
-    position: absolute;
-    right: -3.7rem;
-    top: calc(2.3rem + 2.5rem);
-    background-color: transparent;
-    color: #35e6e9;
-    border: none;
-    font-size: 2.4rem;
-    cursor:pointer
+  position: absolute;
+  right: -3.7rem;
+  top: calc(2.3rem + 2.5rem);
+  background-color: transparent;
+  color: #35e6e9;
+  border: none;
+  font-size: 2.4rem;
+  cursor: pointer;
 }
