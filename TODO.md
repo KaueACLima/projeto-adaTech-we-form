@@ -1,3 +1,0 @@
-# A terminar:
-
-- Criar responsivo;

@@ -1,0 +1,85 @@
+    @media screen and (max-width: 425px) {
+    .content {
+        display: grid;
+        grid-template-areas:
+        "."
+        "hero"
+        "form"
+        ".";
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+    aside img {
+        max-width: 40%;
+    }
+
+    aside h1 {
+        font-size: 3.5rem;
+    }
+
+    section {
+            width: 36rem;
+            height: 45rem;
+            padding: 1.5rem 3rem;
+            margin: 0 auto;
+        }
+
+    section header {
+        justify-content: left;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    section .actions a {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        height: 3.5rem;
+    }
+
+    section form :is(input, select) {
+        width: 280px;
+    }
+
+    section form .select-div::after{
+        right: 3.8rem;
+    }
+
+    section form input + button {
+        right: -1.5rem;
+    }
+
+    section footer a,
+    section footer p{
+        font-size: 1.6rem;
+    }
+
+    section footer p {
+        text-align: center;
+    }
+
+    .content-entities-indexed{
+        gap: 0;
+    }
+
+    .header-entities-indexed h1{
+        font-size: 4rem;
+    }
+
+    section .entities h4{
+        font-size: 1.5rem;
+    }
+
+    section .entities > div{
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        padding: .2rem;
+    }
+
+    section .entities a{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    }
